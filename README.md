@@ -1,7 +1,7 @@
 # Narration-generator-web-demo
 学术英语写作课程pre，了解Narration的定义、典例、分析后，我做了个自动生成Narration的网页demo，依靠NLP技术与马尔科夫链实现。
 
-Certainly! Implementing a second-order Markov Chain will enhance the coherence of the generated narrations by considering the two preceding words when predicting the next word. Below are the updated `index.html` and `script.js` files incorporating a second-order Markov Chain.
+Implementing a second-order Markov Chain will enhance the coherence of the generated narrations by considering the two preceding words when predicting the next word. Below are the updated `index.html` and `script.js` files incorporating a second-order Markov Chain.
 
 ### Directory Structure
 
@@ -866,6 +866,4 @@ function buildMarkovChain(text) {
 
 ## 总结
 
-马尔科夫链通过分析训练文本中的词汇和它们的相互关系，能够生成看似自然的文本。这种方法虽然简单，但在适当的训练数据和优化下，能够实现相当不错的文本生成效果。随着对马尔科夫链原理的理解和应用，您可以进一步提升生成器的质量，使其生成的叙述更加连贯和丰富。
-
-如果您有更多问题或需要进一步的帮助，请随时告诉我！
+马尔科夫链通过分析训练文本中的词汇和它们的相互关系，能够生成看似自然的文本。这种方法虽然简单，但在适当的训练数据和优化下，能够实现相当不错的文本生成效果。随着对马尔科夫链原理的理解和应用，我们可以进一步提升生成器的质量，使其生成的叙述更加连贯和丰富。
